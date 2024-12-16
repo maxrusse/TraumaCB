@@ -96,22 +96,22 @@ The system significantly outperforms generic chatbots, achieving high accuracy i
 - **Knowledge Database**: Builds a searchable knowledge base from curated datasets (e.g., RadioGraphics).
 - **Vector Store**: Uses Llama Index to convert knowledge into dense vectors for efficient retrieval.
 - **Retrieval-Augmented Generation (RAG)**: Fetches relevant content based on semantic similarity to the user query.
-- **-4 Turbo Integration**: Generates answers using pre-trained models with task-specific prompts.
-- **Two-Step Workflow**: Implements a two-step workflow mimicking clinical processes:
-  1. **Primary Diagnosis**: Based on radiological findings, the system provides an initial diagnosis.
-  2. **Classification and Grading**: After receiving the initial diagnosis, the system retrieves additional context to assign a classification system and grading, accompanied by concise yet comprehensive explanations.
+- **GPT-4 Turbo Integration**: Generates answers using pre-trained models with task-specific prompts.
+- **Two-Step Workflow**: Implements a two-step chain of thought workflow mimicking clinical processes:
+  1. **Primary Diagnosis**: Based on radiological findings and the case specific retrived context, the system provides an initial diagnosis.
+  2. **Classification and Grading**: After receiving the initial diagnosis, the system retrieves additional context to assign a classification system and grading, accompanied by concise explanations.
 - **Transparent Outputs**: Provides detailed source references for verification.
 
 ## Technical Implementation
 
 - **Embedding Model**: Leverages `text-embedding-ada-002` for high-quality vector representation.
 - **Semantic Search**: Retrieves relevant data using cosine similarity.
-- **Custom Prompts**: Ensures contextual accuracy with domain-specific -4 Turbo templates.
+- **Custom Prompts**: Ensures contextual accuracy with domain-specific GPT-4 Turbo templates.
 - **Source Metadata**: Tracks filenames and pages for verification.
 
 ## Performance
 
-- Outperformed generic -4 Turbo in trauma diagnosis, classification, and grading.
+- Outperformed generic GPT-4 Turbo in trauma diagnosis, classification, and grading.
 - Demonstrated higher trust ratings from expert reviewers for its detailed explanations and source transparency.
 
 ## Research and Development
@@ -120,7 +120,7 @@ This project is based on the original research article:
 
 > *Will be inserted on publication*
 
-The study highlights the potential of combining RAG with -4 Turbo to address challenges in trauma radiology.
+The study highlights the potential of combining RAG with GPT-4 Turbo to address challenges in trauma radiology.
 
 ## Contributing
 
@@ -134,8 +134,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 - The TraumaCB team
 - Contributors to the RadioGraphics Top 10 Reading List for Trauma Radiology
-- OpenAI for providing the -4 Turbo platform
-- Llama Index Team for their framework
+- OpenAI for providing the GPT-4 Turbo API access
+- Llama Index Team for their RAG-framework
 
 ## Contact
 
