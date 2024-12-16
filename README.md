@@ -140,5 +140,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For further information, visit our research group:
-[AG IT-AI, Department of Diagnostic and Interventional Radiology, Medical Center - University of Freiburg, Faculty of Medicine](https://www.uniklinik-freiburg.de/radiologie/forschung/ag.html)
-[LinkedIn Profile]([https://www.linkedin.com/in/maximilian-russe-3a83a42a6](https://www.linkedin.com/in/maximilian-russe-3a83a42a6))
+
+- [AG IT&AI, Department of Diagnostic and Interventional Radiology, Medical Center - University of Freiburg, Faculty of Medicine](https://www.uniklinik-freiburg.de/radiologie/forschung/ag.html)  
+- [LinkedIn Profile - Maximilian Russe](https://www.linkedin.com/in/maximilian-russe-3a83a42a6)
+
